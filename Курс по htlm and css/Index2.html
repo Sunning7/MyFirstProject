@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+ <title>My website</title>
+ </head>
+ <body>
+    <form action="index.php" method="post" enctype="multipart/form-data">
+       <label for="username">username:</label>
+        <input type="text" id="username"  placeholder="Enter your name" minlenght="6"  maxlength="12" required>
+        <br>
+        <label for="password">password:</label>
+        <input type="password" id="password" minlenght="6"  maxlength="12" required><br>
+        <label for="file">File:</label>
+        <input type="file" id="file" accept="image/png">
+        <input type="reset">
+        <input type="submit">
+    </form>
+ </body>
+</html>
