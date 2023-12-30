@@ -1,160 +1,165 @@
 * {
-    margin: 0;
+  margin: 0;
 
-  }
+}
 
-  #navbar {
-    background: white;
-    color: rgb(13, 26, 38);
-    line-height: 60px;
-    height: 140px;
+#navbar {
+  background: white;
+  color: rgb(13, 26, 38);
+  line-height: 60px;
+  height: 140px;
 }
-.logo{
-    margin-left: 10px;
-    margin-top: 8px;
+
+.logo {
+  margin-left: 10px;
+  margin-top: 8px;
 }
+
 .nav-wrapper {
   height: 100%;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 }
-   
+
 #navbar ul {
-    display: inline-block;
-    list-style: none;
-    margin-top: -2px;
-    text-align: right;
-    transition: transform 0.5s ease-out;
-    -webkit-transition: transform 0.5s ease-out;
-  } @media(max-width: 640px) {
-      #navbar ul {
-        display: none;
-      }
-    } @media(orientation: landscape) {
-        #navbar ul {
-          display: inline-block;
-        }
-      }
-  
-  #navbar li {
-    display: inline-block;
-  }
-  
-  #navbar li a {
-    color: rgb(7, 8, 10);
-    display: block;
-    font-family: sans-serif;
-    font-size: 1em;
-    height: 50px;
-    letter-spacing: 1px;
-    margin: 0 20px;
-    padding:  5px;
-    position: relative;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease;
-  }
-  
-  #navbar li a:hover {
-    color: rgb(233, 190, 112);
-    transition: all 1s ease;
-    -webkit-transition: all 1s ease;
-  }
+  display: inline-block;
+  list-style: none;
+  margin-top: -2px;
+  text-align: right;
+  transition: transform 0.5s ease-out;
+  -webkit-transition: transform 0.5s ease-out;
+}
 
-  .box1{
+#navbar li {
+  display: inline-block;
+}
 
-    height: 619px;
-    text-align: center;
-    color: aliceblue;
-    background-image: url(Image1/Rectangle48.png);
-    background-position: center;
-    background-size: cover;
+#navbar li a {
+  color: rgb(7, 8, 10);
+  display: block;
+  font-family: sans-serif;
+  font-size: 1em;
+  height: 50px;
+  letter-spacing: 1px;
+  margin: 0 20px;
+  padding: 5px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
 
-  }
-  .text1{
-    box-sizing: content-box;
-    width: 100%;
-    height: 326px;
-    display: flex;
-    font-family: sans-serif;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    padding: 40px 0px;
+#navbar li a:hover {
+  color: rgb(233, 190, 112);
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+}
 
-  }
+.box1 {
 
-  .text1 h1{
-    font-size: 2.8em;
-    padding: 0px 270px;
-  }
-  
- .button{
+  height: 619px;
+  text-align: center;
+  color: aliceblue;
+  background-image: url(Image1/Rectangle48.png);
+  background-position: center;
+  background-size: cover;
+
+}
+
+.text1 {
+  box-sizing: content-box;
+  width: 100%;
+  height: 326px;
+  display: flex;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 40px 0px;
+
+}
+
+.text1 h1 {
+  font-size: 2.8em;
+  padding: 0px 270px;
+}
+
+.button {
   cursor: pointer;
   border-radius: 30px;
- }
-.button.playStore{
-background-color: #FA4A0C;
-color: white;
-border: none;
+}
+
+.button.playStore {
+  background-color: #FA4A0C;
+  color: white;
+  border: none;
 
 }
-.button.appStore{
-border: 1px solid #FFFFFF;
-margin-left: 50px;
-background-color: transparent;
-color:white;
+
+.button.appStore {
+  border: 1px solid #FFFFFF;
+  margin-left: 50px;
+  background-color: transparent;
+  color: white;
 }
-.button_text{
+
+.button_text {
   display: flex;
   font-size: 17px;
   padding: 12px 32px;
 }
- #textupper{
+
+#textupper {
   font-style: oblique 0.6deg;
-  }
-.phoneImage{
-width: 100%;
-height: 350px;
 }
-.phoneImage1{
+
+.phoneImage {
+  position: relative;
+  width: 100%;
+  height: 350px;
+}
+
+.phoneImage1 {
   position: absolute;
   overflow: visible;
   height: 459px;
   width: 380px;
-  top: 601px;
-  left: calc(50% - 200px );
+  top: -150px;
+  left: calc(50% - 200px);
 }
 
-hr{
+hr {
   height: 90%;
   border: 0 none;
   margin-left: 250px;
   margin-right: 250px;
   border-bottom: 3px solid grey;
   opacity: 0.5;
-  
+
 }
-.titleApps{
+
+.titleApps {
   font-family: sans-serif;
   font-size: 2em;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.box2{
+
+.box2 {
   display: flex;
   height: 807px;
   width: 100%;
 }
 
-.Side{
-width: 50%;
+.Side {
+  width: 50%;
 }
-.Side.Right{
+
+.Side.Right {
   justify-content: space-between;
   display: flex;
   align-items: center;
@@ -163,33 +168,40 @@ width: 50%;
   padding-bottom: calc(20% + 50px);
   font-family: sans-serif;
 }
-.Side.Left{
+
+.Side.Left {
+  height: 100%;
   background-image: url(Image1/Rectangle3.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 
-} 
-.Side.Right h3{
+}
+
+.Side.Right h3 {
   color: #FA4A0C;
   padding-left: 20%;
   padding-right: 20%;
 }
-.Side.Right h2{
+
+.Side.Right h2 {
   padding-left: 20%;
   padding-right: 20%;
 }
-.Side.Right h4{
+
+.Side.Right h4 {
   color: #737373;
   padding-left: 20%;
   padding-right: 20%;
-  }
+}
 
-.box3{
+.box3 {
   display: flex;
   height: 807px;
   width: 100%;
 }
-.Side.Left2{
+
+.Side.Left2 {
   justify-content: space-between;
   display: flex;
   align-items: center;
@@ -198,36 +210,46 @@ width: 50%;
   padding-bottom: calc(20% + 50px);
   font-family: sans-serif;
 }
-.Side.Right2{
+
+.Side.Right2 {
+  height: 100%;
   background-image: url(Image1/Rectangle4.png);
   background-repeat: no-repeat;
   background-position: center;
 }
-.Side.Left2 h3{
+
+.Side.Left2 h3 {
   color: #FA4A0C;
   padding-left: 20%;
   padding-right: 20%;
 }
-.Side.Left2 h2{
+
+.Side.Left2 h2 {
   padding-left: 20%;
   padding-right: 20%;
 }
-.Side.Left2 h4{
+
+.Side.Left2 h4 {
   color: #737373;
   padding-left: 20%;
   padding-right: 20%;
 }
-.box4{
+
+.box4 {
   display: flex;
   height: 807px;
   width: 100%;
 }
-.Side.Left3{
+
+.Side.Left3 {
+  height: 100%;
   background-image: url(Image1/Rectangle5.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
 }
-.Side.Right3{
+
+.Side.Right3 {
   justify-content: space-between;
   display: flex;
   align-items: center;
@@ -236,94 +258,250 @@ width: 50%;
   padding-bottom: calc(20% + 50px);
   font-family: sans-serif;
 }
-.Side.Right3 h3{
- color: #FA4A0C;
+
+.Side.Right3 h3 {
+  color: #FA4A0C;
   padding-left: 20%;
   padding-right: 20%;
 }
-.Side.Right3 h2{
+
+.Side.Right3 h2 {
   padding-left: 20%;
   padding-right: 20%;
 }
-.Side.Right3 h4{
+
+.Side.Right3 h4 {
   color: #737373;
   padding-left: 20%;
   padding-right: 20%;
 }
-.box5{
+
+.box5 {
   height: 510px;
   background-image: url(Image1/Rectangle49.png);
   background-position: center;
   background-size: cover;
 
 }
-.box_text2{
-width: 100%;
-height: 140px;
-display: flex;
-font-family: sans-serif;
-align-items: center;
-justify-content: space-between;
-flex-direction: column;
-color: #FFFFFF;
-padding-top: 150px;
+
+.box_text2 {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #FFFFFF;
+  padding-top: 150px;
 
 }
-.box_text2 h2{
+
+.box_text2 h2 {
   font-size: 2.5em;
 }
-.bottom_button{
+
+.bottom_button {
   text-align: center;
   padding-top: 20px;
   border-radius: 5px;
 }
-.button2{
-cursor: pointer;
-border-radius: 15px;
+
+.button2 {
+  cursor: pointer;
+  border-radius: 15px;
 
 }
-.button2.playStore2{
-width: 140px;
-height: 60px;
-border: none;
-background-color: #FA4A0C;
-color: white;
+
+.button2.playStore2 {
+  width: 140px;
+  height: 60px;
+  border: none;
+  background-color: #FA4A0C;
+  color: white;
 }
-.button2.appStore2{
- width: 170px;
- height: 60px;
- border: 1px solid #FFFFFF;
- margin-left: 50px;
- background-color: transparent;
- color:white;
+
+.button2.appStore2 {
+  width: 170px;
+  height: 60px;
+  border: 1px solid #FFFFFF;
+  margin-left: 50px;
+  background-color: transparent;
+  color: white;
 }
-.button_text2{
+
+.button_text2 {
   font-size: 16px;
 }
-.footer{
-height: 145px;
-display:flex;
-justify-content: space-between;
-align-items: center;
+
+.footer {
+  height: 145px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.footer h4{
+.footer h4 {
   font-family: sans-serif;
   padding-right: 30px;
 }
-.socialMedia{
+
+.socialMedia {
   width: 170px;
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-}
-@media (min-width:320px){
 
 }
 
-@media (min-width:980px){
-  
+
+
+@media (max-width:320px) {
+  .box1 {
+    background-image: none;
+    color: black;
+  }
 }
 
+@media (min-width: 750px) {
+  .responsiveButton {
+    display: none;
+  }
+
+}
+
+@media (max-width: 750px) {
+  #navbar ul {
+    display: none;
+  }
+
+  .box1 {
+    background-image: none;
+    color: black;
+  }
+
+  .button.appStore {
+    border: 1px solid #FA4A0C;
+    color: #fA4A0C;
+  }
+
+  .phoneImage {
+    height: 450px;
+  }
+
+  .box2 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .box3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box4 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .side.Left {
+    background-size: cover;
+  }
+  .Side.Right2{
+    background-size: contain
+  }
+
+  .Side.Right{
+    font-size: 1em;
+  }
+
+
+  .Side.Left3 {
+    background-size: cover;
+  }
+
+  hr {
+    margin: 0;
+  }
+
+  .logo {
+    height: 100px;
+    width: 150px;
+
+  }
+
+  .responsiveButton {
+    height: 50px;
+    width: 60px;
+    background-color: #737373;
+    border: none;
+    margin-right: 10%;
+    cursor: pointer;
+  }
+
+  .responsiveButton a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+
+  }
+
+  .responsiveButton .content {
+    display: none;
+    background-color: #b9b9b9;
+    position: absolute;
+    box-shadow: 2px 2px 5px rgb(24, 24, 24);
+  }
+
+  .responsiveButton:hover .content {
+    display: block;
+
+  }
+
+  .content a:hover {
+    background-color: #f1eded;
+    color: #FA4A0C;
+  }
+
+  .text1 h1 {
+    font-size: 2em;
+  }
+  .box5{
+    background-image: none;
+    background-color: #252B42;
+  }
+}
+
+@media (max-width:980px) {
+  #menu {
+    font-size: 0.75em;
+  }
+
+  .text1 {
+    font-size: 0.75em;
+  }
+
+  .footer {
+    font-size: 0.75em;
+  }
+}
+
+@media (min-width: 320px) {}
+
+@media (min-width:768px) {
+  .responsiveButton {
+    display: none;
+  }
+
+}
+
+@media (min-width:768px) {
+  .responsiveButton {
+    display: none;
+  }
+
+}
